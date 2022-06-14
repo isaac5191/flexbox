@@ -1,0 +1,104 @@
+*,
+*::before
+*::after{
+    border: 0;
+   outline: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+body{
+    font-size: 15px;
+    font-family:'lexend Deca',sans-serif;
+    font-weight: 400;
+    display: flex;
+    place-content: center;
+    flex-wrap: wrap;
+}
+h1{
+    font-family:'lexend Deca',sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: lightgray;
+    text-align: justify;
+}
+.DIVO{
+ padding: 40px 32px;
+ display: flex;
+ align-items: flex-start;
+ flex-direction: row;
+}
+.divone{
+    margin-bottom: 30px;
+}
+
+.divtwo{
+    background-color: hsl(184, 100%, 22%); 
+
+}
+.divthree{
+    background-color:  hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 840px;
+}
+.maindiv{
+    background-color:hsl(31, 77%, 52%) ;
+    border-radius: 10px 0 0 10px;
+}     
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 25px 0 60px 0;
+    font-size: 15px;
+    align-items: center;
+    line-height: 1.6;
+}
+header{
+    color: hsl(0, 0%, 95%);
+    align-items: center;
+    display: flexbox;
+    justify-content: end;
+}
+.button1{
+    color:  hsl(31, 77%, 52%);
+    background-color:  hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px 2px;
+    padding: 5px;
+    min-height: 40px;
+    min-width: 80px;
+
+} 
+.button2{
+    color: hsl(184, 100%, 22%);
+    background-color:  hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px 2px;
+    padding: 5px;
+    min-height: 40px;
+    min-width: 80px;
+}
+.button3{
+    color: hsl(179, 100%, 13%);;
+    background-color:  hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 15;
+    box-shadow: 0px 0px 2px 2px;
+    min-height: 40px;
+    min-width: 80px;
+    padding: 5px;
+}
+button{
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: 15;
+    border: solid 2px 
+}
+ 
